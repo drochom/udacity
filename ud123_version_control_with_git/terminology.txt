@@ -1,1 +1,10 @@
 # terminology
+
+Version Control System / Source Code Manager
+  A version control system (abbreviated as VCS) is a tool that manages different versions of source code. A source code manager (abbreviated as SCM) is another name for a version control system.
+  Git is an SCM (and therefore a VCS!). The URL for the Git website is https://git-scm.com/(opens in a new tab) (see how it has "SCM" directly in its domain!).
+
+Commit
+  Git thinks of its data like a set of snapshots of a mini filesystem. Every time you commit (save the state of your project in Git), it basically takes a picture of what all your files look like at that moment and stores a reference to that snapshot. You can think of it as a save point in a game - it saves your project's files and any information about them.
+  Everything you do in Git is to help you make commits, so a commit is the fundamental unit in Git.
+
